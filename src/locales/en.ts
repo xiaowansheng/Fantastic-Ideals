@@ -1,0 +1,2 @@
+// en.js
+export default {}
