@@ -1,0 +1,38 @@
+$themes: (
+  light: (
+    bkColor-1: rgba(255, 255, 255, 1),
+    bkColor-2: rgba(255, 255, 255, 0.75)
+  ),
+  dark: (
+    bkColor-1: #000
+  )
+);
+
+$curTheme: light;
+@function getVal($key) {
+  $theme: map-get($themes, $curTheme);
+
+  // 检查主题是否存在
+  @if not $theme {
+    @error "Theme '#{$curTheme}' not found.";
+  }
+
+  // 获取主题变量值
+  $value: map-get($theme, $key);
+
+  // 检查主题变量是否存在
+  @if not $value {
+    @error "Variable '#{$key}' not found in theme '#{$curTheme}'.";
+  }
+
+  @return $value;
+}
+
+@mixin useTheme() {
+  @each $key, $value in $themes {
+    $curTheme: $key !global;
+    html[data-theme='#{$key}'] & {
+      @content;
+    }
+  }
+}
