@@ -1,0 +1,24 @@
+{
+  "zh": {
+    "menu":{
+      "home": "主页",
+      "navigation":"导航",
+      "blog":"博客",
+      "about":"关于",
+      "other":"其它",
+      "github":"GITHUB",
+      "gitee":"GITEE"
+    }
+  },
+  "en": {
+    "menu":{
+      "home": "HOME",
+      "navigation": "NAVIGATION",
+      "blog": "BLOG",
+      "about":"ABOUT",
+      "other": "OTHER",
+      "github": "GITHUB",
+      "gitee": "GITEE"
+    }
+  }
+}

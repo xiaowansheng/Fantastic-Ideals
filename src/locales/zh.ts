@@ -1,2 +1,0 @@
-// zh.js
-export default {}

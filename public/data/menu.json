@@ -1,0 +1,11 @@
+[
+  { "label": "menu.blog", "url": "https://wbxnl.com" },
+  { "label": "menu.about", "url": "https://wbxnl.com/about" },
+  {
+    "label": "menu.other",
+    "submenu": [
+      { "label": "menu.github", "url": "https://github.com/xiaowansheng" },
+      { "label": "menu.gitee", "url": "https://gitee.com/xiaowansheng" }
+    ]
+  }
+]

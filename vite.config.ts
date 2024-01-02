@@ -9,7 +9,7 @@ import { createHtmlPlugin } from 'vite-plugin-html'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons' 
 import path from 'path'
 //这个配置 为了在html中使用 环境变量
-const getViteEnv = (mode, target) => {
+const getViteEnv = (mode:any, target:any) => {
   return loadEnv(mode, process.cwd())[target];
 };
 // https://vitejs.dev/config/

@@ -1,0 +1,38 @@
+{
+  "qq": {
+    "show": true,
+    "content": "534489054"
+  },
+  "weibo": {
+    "show": true,
+    "content": "xwansheng"
+  },
+  "email": {
+    "show": true,
+    "content": "xiaowansheng@foxmail.com"
+  },
+  "twitter": {
+    "show": true,
+    "content": "xiaoshuoooooo"
+  },
+  "facebook": {
+    "show": true,
+    "content": "xiaowansheng"
+  },
+  "telegram": {
+    "show": true,
+    "content": "xiaowansheng"
+  },
+  "instagram": {
+    "show": true,
+    "content": "kuromioooooo"
+  },
+  "github": {
+    "show": true,
+    "content": "xiaowansheng"
+  },
+  "gitee": {
+    "show": true,
+    "content": "xiaowansheng"
+  }
+}
